@@ -8,4 +8,5 @@
  */
 
 rootProject.name = "mpl-java"
+
 include("lib")

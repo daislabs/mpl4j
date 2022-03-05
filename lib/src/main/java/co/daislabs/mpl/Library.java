@@ -4,7 +4,7 @@
 package co.daislabs.mpl;
 
 public class Library {
-    public boolean someLibraryMethod() {
-        return true;
-    }
+  public boolean someLibraryMethod() {
+    return true;
+  }
 }
