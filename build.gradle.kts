@@ -1,5 +1,3 @@
-group = "co.daislabs"
-
 subprojects {
     apply(plugin = "java")
     apply(plugin = "maven-publish")
