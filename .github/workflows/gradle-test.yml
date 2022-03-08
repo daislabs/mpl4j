@@ -32,7 +32,7 @@ jobs:
         arguments: build
 
     - name: Publish Snapshot
-      if: ${{ github.repository == 'daislabs/mpl-java' && github.ref_name == 'main' }}
+      if: ${{ github.repository == 'daislabs/mpl4j' && github.ref_name == 'main' }}
       uses: gradle/gradle-build-action@937999e9cc2425eddc7fd62d1053baf041147db7
       with:
         arguments: publish
